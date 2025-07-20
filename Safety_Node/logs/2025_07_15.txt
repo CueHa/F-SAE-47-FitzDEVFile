@@ -1,0 +1,25 @@
+# Date: 2025_07_15
+# Project/Focus Area: F:SAE:47/Safety Node
+# Location(Windows): /"Academic (College)"/"Safety_node"
+# Location(Linux): /home/Desktop/F:SAE:47/Safety_node
+
+## Summary of what was done:
+-- Treated Tristan's documentation of the project as the problem specification and started from there.
+-- With that, Safety Node is now ActPhase ready.
+
+## Tangents/Unrelated work:
+-- Dual Booted my laptop to Ubuntu so I don't have to handle WSL2 access conflicts with Arduino IDE on Windows.
+---- Setted up a 128GB USB named "Fitz_OS" with 110GB persistent storage. This is to serve as a portable Ubuntu environment to store working versions of F:SAE:47 stuff and other projects.
+
+## State of system when stopped:
+-- The Safety Node is now ready for the ActPhase.
+
+## Questions/unknowns:
+-- 
+
+## Next step when resuming:
+-- 
+
+## Terms/Glossary:
+-- ActPhase: a state here a project is ready for linear division of actionable tasks, grouped by phases.
+

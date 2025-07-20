@@ -1,0 +1,28 @@
+# Date: 2025_07_17
+# Project/Focus Area: F:SAE:47/Safety Node
+# Location(Windows): /"Academic (College)"/"Safety_node"
+# Location(Linux): /home/Desktop/F:SAE:47/Safety_node
+
+## Summary of what was done:
+-- quite quick, but all phases are done, from phase 3 to phase 5.
+
+## Tangents/Unrelated work:
+-- None.
+
+## State of system when stopped:
+-- All code and phases are done. What's left is actual hardware connecting.
+-- Start to think if PCB is needed for this implementation.
+
+## Questions/unknowns:
+-- 
+
+## Next step when resuming:
+-- Order a level shifter.
+-- continue with the hardware connections.
+
+## Terms/Glossary:
+-- 
+
+## Links/Online resources:
+-- [Phase] https://docs.google.com/document/d/1CX0VM-b4R37ebadNpbTnhyN3ynzNVMJQc69Gz9pJBrY/edit?tab=t.0 
+-- [ESP32 pins] https://docs.google.com/document/d/1DOk9nvdCmadeP7gML2u4BBwof6lSQ3nRZgeb01AfwSk/edit?tab=t.0

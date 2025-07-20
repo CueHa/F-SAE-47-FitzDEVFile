@@ -1,0 +1,25 @@
+# Date: 2025_07_16
+# Project/Focus Area: F:SAE:47/Safety Node
+# Location(Windows): /"Academic (College)"/"Safety_node"
+# Location(Linux): /home/Desktop/F:SAE:47/Safety_node
+
+## Summary of what was done:
+-- re-dual booted to have the correct verssion of Ubuntu that support ROS2 Humble.
+-- Divided the Safety node tasks with Tristan, he know is responsible ith everything ROS2 node related while I am reponsible for everything ESP32 related, including the hardware.
+-- Decided to go on with a virtual ROS2 node as I can't physically connect ESP32 and Jetson without a level shifter, for SPI communication.
+
+## Tangents/Unrelated work:
+-- 
+
+## State of system when stopped:
+-- Phase 0 cleared. 
+
+## Questions/unknowns:
+-- 
+
+## Next step when resuming:
+-- Order a level shifter.
+-- continue with Phase 1.
+
+## Terms/Glossary:
+-- 
