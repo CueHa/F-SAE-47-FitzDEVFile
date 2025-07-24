@@ -9,7 +9,8 @@ This module implements the Jetson–ESP32 safety watchdog logic. It ensures reli
 
 ## Subsystems
 
-- `esp32/`: Handles hardware I/O and control logic.
+- `esp32/config.h`: config.h for the esp32.ino
+- `esp32/esp32.ino`: Handles hardware I/O and control logic.
 - `jetson_node_simulation.py`: Mocks Jetson communication for testing.
 
 ## How to Run

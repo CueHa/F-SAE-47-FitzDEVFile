@@ -28,5 +28,5 @@ while True:
     while ser.in_waiting:
         print(f"< Recv: {ser.readline().decode(errors='replace').strip()}")
 
-    time.sleep(4)  # Wait before next state
+    time.sleep(1.8)  # Wait before next state
     index = (index + 1) % len(fsm_states)  # Cycle through states

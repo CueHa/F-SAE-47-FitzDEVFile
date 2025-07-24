@@ -1,0 +1,30 @@
+# Date: 2025_07_22
+# Project/Focus Area: F:SAE:47/Safety Node
+# Location(Windows): /"Academic (College)"/"Safety_node"
+# Location(Linux): /home/Desktop/F:SAE:47/Safety_node
+
+## Summary of what was done:
+-- Decided to get inducted on Soldering station of FSAE47 electrical team. 
+-- Decided to go for a quick way to make the node mountable on the prototype go-kart.
+-- No longer need to order a level shifter as I decided to just cut the VCC line of the USB to UB micro that connects the ESP32 to the computer. This way, I can power the ESP32 safety from the 24V LV battery of the go-kart instead of overloading the Jetson.
+
+## Tangents/Unrelated work:
+-- None.
+
+## State of system when stopped:
+-- All code and phases are done. What's left is actual hardware connecting.
+-- Start to think if PCB is needed for this implementation.
+
+## Questions/unknowns:
+-- 
+
+## Next step when resuming:
+-- continue with the hardware connections.
+-- Get a proto-board to make the whole thing mountable. This is less time consumed that creating a PCB. Look into have clamps for servicability.
+
+## Terms/Glossary:
+-- 
+
+## Links/Online resources:
+-- [Phase] https://docs.google.com/document/d/1CX0VM-b4R37ebadNpbTnhyN3ynzNVMJQc69Gz9pJBrY/edit?tab=t.0 
+-- [ESP32 pins] https://docs.google.com/document/d/1DOk9nvdCmadeP7gML2u4BBwof6lSQ3nRZgeb01AfwSk/edit?tab=t.0

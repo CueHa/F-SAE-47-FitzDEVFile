@@ -1,0 +1,32 @@
+# Date: 2025_07_24
+# Project/Focus Area: F:SAE:47/Safety Node
+# Location(Windows): /"Academic (College)"/"Safety_node"
+# Location(Linux): /home/Desktop/F:SAE:47/Safety_node
+
+## Summary of what was done:
+-- Done with the induction on the soldering station. Now I can use it whenever I need to.
+-- Done with the proto-board with the ESP32, the OLED, the ASSI LEDs, the 8 inputs(all in pullup), 2 outputs, one VCC and two GND inputs.
+-- Done with modding the USB to UB micro cable to cut the VCC line, so I can power the ESP32 with the VCC and GND in the proto-board.
+
+## Tangents/Unrelated work:
+-- None.
+
+## State of system when stopped:
+-- Proto-board is done with all the cnnections made except for the second GND line for the 8 inputs. 
+-- Everythign works as expected for the proto-board except the output; throttle and EBS remains untested.
+
+## Questions/unknowns:
+-- 
+
+## Next step when resuming:
+-- continue with the hardware connections.
+-- create some sort of voltage conditioning for the inputs to have 3.3V logic levels.
+-- create the buck converter to lower down fused 24V to 5V for the proto-board and relays.
+
+## Terms/Glossary:
+-- 
+
+## Links/Online resources:
+-- [Safety_node] https://docs.google.com/document/d/1AwhVx-LGXlIyJzj9FRMxD1muIE4M1URyiZuchAnXLS4/edit?pli=1&tab=t.0
+-- [Phase] https://docs.google.com/document/d/1CX0VM-b4R37ebadNpbTnhyN3ynzNVMJQc69Gz9pJBrY/edit?tab=t.0 
+-- [ESP32 pins] https://docs.google.com/document/d/1DOk9nvdCmadeP7gML2u4BBwof6lSQ3nRZgeb01AfwSk/edit?tab=t.0
