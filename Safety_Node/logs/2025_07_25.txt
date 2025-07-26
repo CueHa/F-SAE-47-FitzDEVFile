@@ -19,10 +19,12 @@
 -- How can we work around the issue of the ESP32 being only able to operate at 3.3V logic levels?
 
 ## Next step when resuming:
--- test the outputs for throttle and EBS.
 -- continue with the hardware connections.
+
+-- test the outputs for throttle and EBS.
 -- solve the issue with the ESP32 being only able to operate at 3.3V logic levels.
 -- create the buck converter to lower down fused 24V to 5V for the proto-board and relays.
+-- 
 
 ## Terms/Glossary:
 -- 
