@@ -22,5 +22,4 @@ log/
 .DS_Store
 Thumbs.db
 
-# Logs and Archives (if not meant to be versioned)
-logs/
+# files i.e. logs/
