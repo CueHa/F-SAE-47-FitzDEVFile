@@ -23,5 +23,4 @@ log/
 Thumbs.db
 
 # Logs and Archives (if not meant to be versioned)
-Logs/
-Archive/
+logs/
