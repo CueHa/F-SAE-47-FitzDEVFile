@@ -1,0 +1,38 @@
+# Date: 2025_07_27
+# Project/Focus Area: F:SAE:47/Safety Node
+# Location(Windows): /"Academic (College)"/"Safety_node"
+# Location(Linux): /home/Desktop/F:SAE:47/Safety_node
+
+## Summary of what was done:
+-- Done with the Buck Converter. I ended up using a LM2596 module to step down the 24V to 5V for the proto-board.
+-- 'Semi' slarified what safety node is and what it should do.
+
+## Tangents/Unrelated work:
+-- None.
+
+## State of system when stopped:
+-- Proto-board is done with all the connections. 
+-- Everything works as expected for the proto-board except the output.
+-- There needs to be some idea of reframing the whole safety node. As of now, I do have some ideas on how to implement it.
+
+-- Here's the reframing:
+---- The safety system has it's start-up sequence, and part of it is going to be the Autonomus System Brake (ASB) check. This requires the system to actuate and confirm that the ASB is working --- basically if it is able to stop. 
+---- We are to learn how to actuate the ASB through the MoTeC nd check if it is indeed doing what it is intended to do. 
+---- The use of this Esp32 as I am thinking right now is the main processor of the safety system where it is going to be the one doing the whole state logics and the checks. The Jeton is left out of this and is just going to be updated what state the car is on. 
+---- Another thing is, instead of creating a new node (which we have a lot of, right now), we are going to use the node that controls the throttle and EBS via MoTeC.
+
+-- TLDR: The safety node needs to be able to actuate and check the ASB, as part of the start-up sequence. The ESP32 is going to be the main processor of the safety system (states), and it is going to use the existing node that controls the throttle and EBS via MoTeC.
+
+## Questions/unknowns:
+-- 
+## Next step when resuming:
+-- Check ith Tristan. There's two path to do here --- either I take the whole safety node project by myself or continue doing it as a team with Tristan. 
+-- If it's the latter, explain to him how it is going to be reframed and what the new requirements are.
+
+## Terms/Glossary:
+-- 
+
+## Links/Online resources:
+-- [Safety_node] https://docs.google.com/document/d/1AwhVx-LGXlIyJzj9FRMxD1muIE4M1URyiZuchAnXLS4/edit?pli=1&tab=t.0
+-- [Phase] https://docs.google.com/document/d/1CX0VM-b4R37ebadNpbTnhyN3ynzNVMJQc69Gz9pJBrY/edit?tab=t.0 
+-- [ESP32 pins] https://docs.google.com/document/d/1DOk9nvdCmadeP7gML2u4BBwof6lSQ3nRZgeb01AfwSk/edit?tab=t.0
