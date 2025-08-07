@@ -1,0 +1,28 @@
+# Project/Focus Area: F:SAE:47/Safety Node
+# Location(Windows): /"Academic (College)"/"Safety_node"
+# Location(Linux): /home/Desktop/F:SAE:47/Safety_node
+
+## Summary of what was done:
+-- Done with the Buck Converter. I ended up using a LM2596 module to step down the 24V to 5V for the proto-board.
+-- 'Semi' slarified what safety node is and what it should do.
+
+## Tangents/Unrelated work:
+-- You procrastinated for a three whole weeks and did not do anything related to the safety node.
+
+## State of system when stopped:
+-- Promised Siva to create a plan for a workshop on competition rules and regulations --- a workshop tht explores what's needed, hat's not needed, and what the team should focus on.
+
+## Questions/unknowns:
+-- 
+
+## Next step when resuming:
+-- Do the workshop plan for Siva.
+-- Look for another stuff to do within the team.
+
+## Terms/Glossary:
+-- 
+
+## Links/Online resources:
+-- [Safety_node] https://docs.google.com/document/d/1AwhVx-LGXlIyJzj9FRMxD1muIE4M1URyiZuchAnXLS4/edit?pli=1&tab=t.0
+-- [Phase] https://docs.google.com/document/d/1CX0VM-b4R37ebadNpbTnhyN3ynzNVMJQc69Gz9pJBrY/edit?tab=t.0 
+-- [ESP32 pins] https://docs.google.com/document/d/1DOk9nvdCmadeP7gML2u4BBwof6lSQ3nRZgeb01AfwSk/edit?tab=t.0
