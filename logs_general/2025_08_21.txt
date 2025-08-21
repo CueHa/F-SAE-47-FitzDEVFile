@@ -1,13 +1,12 @@
-# Project/Focus Area: F:SAE:47
+# Project/Focus Area: F:SAE:47/Safety Node
 # Location(Windows): /"Academic (College)"/"Safety_node"
-# Location(Linux): /home/Desktop/F:SAE:47
+# Location(Linux): /home/Desktop/F:SAE:47/Safety_node
 
 ## Summary of what was done:
--- Done with the Buck Converter. I ended up using a LM2596 module to step down the 24V to 5V for the proto-board.
--- 'Semi'clarified what safety node is and what it should do.
+-- A compulsory session for the whole team, we are tasked to help with 'costing' the car. 
 
 ## Tangents/Unrelated work:
--- You procrastinated for a three whole weeks and did not do anything related to the safety node.
+-- You procrastinated for a six whole weeks and did not do anything related to FSAE.
 
 ## State of system when stopped:
 -- Promised Siva to create a plan for a workshop on competition rules and regulations --- a workshop tht explores what's needed, hat's not needed, and what the team should focus on.
